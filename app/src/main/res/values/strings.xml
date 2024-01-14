@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">EindOpdracht</string>
+    <string name="title_savedbooks">Saved Books</string>
+    <string name="title_books">Books</string>
+    <string name="title_newbooks">New Books</string>
+    <string name="saved_books">Saved Books</string>
+    <string name="books">Books</string>
+    <string name="new_books">New Books</string>
+</resources>
