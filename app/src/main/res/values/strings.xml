@@ -6,4 +6,7 @@
     <string name="saved_books">Saved Books</string>
     <string name="books">Books</string>
     <string name="new_books">New Books</string>
+    <string name="save_button_text">Save</string>
+    <string name="unsave_button_text">Unsave</string>
+    <string name="close">Close</string>
 </resources>

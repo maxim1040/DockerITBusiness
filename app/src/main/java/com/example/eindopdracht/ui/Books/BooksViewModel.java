@@ -1,16 +1,16 @@
-package com.example.eindopdracht.ui.notifications;
+package com.example.eindopdracht.ui.Books;
+
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class NewBooksViewModel extends ViewModel {
-
+public class BooksViewModel extends ViewModel {
     private final MutableLiveData<String> mText;
 
-    public NewBooksViewModel() {
+    public BooksViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is notifications fragment");
+        mText.setValue("This is home fragment");
     }
 
     public LiveData<String> getText() {

@@ -1,4 +1,4 @@
-package com.example.eindopdracht.ui.home;
+package com.example.eindopdracht.ui.NewBooks;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,22 +10,22 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.eindopdracht.databinding.FragmentSavedbooksBinding;
+import com.example.eindopdracht.databinding.FragmentNewbooksBinding;
 
-public class SavedBooksFragment extends Fragment {
+public class NewBooksFragment extends Fragment {
 
-    private FragmentSavedbooksBinding binding;
+    private FragmentNewbooksBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        SavedBooksViewModel homeViewModel =
-                new ViewModelProvider(this).get(SavedBooksViewModel.class);
+        NewBooksViewModel newBooksViewModel =
+                new ViewModelProvider(this).get(NewBooksViewModel.class);
 
-        binding = FragmentSavedbooksBinding.inflate(inflater, container, false);
+        binding = FragmentNewbooksBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textHome;
-        homeViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        final TextView textView = binding.textNotifications;
+        newBooksViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
 

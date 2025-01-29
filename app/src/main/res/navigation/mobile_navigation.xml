@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/navigation_saved_books"
-        android:name="com.example.eindopdracht.ui.home.SavedBooksFragment"
+        android:name="com.example.eindopdracht.ui.SavedBooks.SavedBooksFragment"
         android:label="@string/title_savedbooks"
         tools:layout="@layout/fragment_savedbooks" />
 
     <fragment
         android:id="@+id/navigation_books"
-        android:name="com.example.eindopdracht.ui.dashboard.BooksFragment"
+        android:name="com.example.eindopdracht.ui.Books.BooksFragment"
         android:label="@string/title_books"
         tools:layout="@layout/fragment_books" />
 
     <fragment
         android:id="@+id/navigation_new_books"
-        android:name="com.example.eindopdracht.ui.notifications.NewBooksFragment"
+        android:name="com.example.eindopdracht.ui.NewBooks.NewBooksFragment"
         android:label="@string/title_newbooks"
         tools:layout="@layout/fragment_newbooks" />
 </navigation>
